@@ -1,0 +1,157 @@
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: rgb(253, 253, 253);
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 4px rgb(165, 156, 156);
+    position: sticky;
+    top: 0;
+    z-index: 990;
+  
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    margin-left: -20px;
+    display: flex;
+    /* flex: 1; */
+    cursor: pointer;
+    /* background-color: white; */
+}
+.logo-cont-1{
+    padding: 10px;
+}
+.logo-cont-1 span{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(46, 217, 217);
+    font-family: 'Libre Baskerville', serif;
+}
+.logo-cont-1 p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 35px;
+    color: rgb(46, 217, 217);
+    font-family: 'Libre Baskerville', serif;
+}
+.logoImage{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+.headerItem{
+    margin-right: 50px;
+    display: flex;
+    margin-left: 120px;
+    
+}
+.fProject{
+    padding:10px 30px;
+    font-size: 18px;
+    /* border-left: 1px solid rgb(170, 154, 154); */
+    margin:10px 20px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    
+    /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; */
+}
+
+
+
+.imagItem-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    margin-top: 15px;
+    /* border-radius: 20px; */
+}
+.imagItem-1 p{
+   margin-top: 7px;
+}
+.userImage-1 {
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.userImage-1 img{
+    /* margin:-18px 40px; */
+    width: 40px;
+    height:40px;
+    border: 1px solid black;
+    border-radius: 90%;
+}
+
+.logoutOpen{
+    background-color: rgb(230, 236, 236);
+    position: absolute;
+    top: 85px;
+    padding: 10px;
+
+}
+.logoutItem li{
+    list-style: none;
+    padding:10px 10px;
+    margin-right: 40px;
+    margin-bottom: 3px;
+    font-size: 20px;
+    transition: .5s ease;
+}
+.logoutItem li:hover{
+    background-color: orange;
+}
+.active{
+    background-color: orange;
+    /* columns: ; */
+    border-radius: 20px;
+}
+
+
+@media (max-width:850px) {
+  
+    .header{
+        width: 100%;
+        margin-top: 260px;
+        align-items: start;
+        height: auto;
+        padding: 10px;
+       
+    }
+    .headerItem{
+        flex-direction: column;
+        /* background-color: orange; */
+        margin: 0px;
+        width: 100%;
+        padding: 10px 30px;
+  
+    }
+    .fProject{
+      border: none;
+      font-size: 20px;
+      width: 100%;
+      padding: 3px 20px;
+    }
+   
+    .imagItem-1{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+   
+    .about{
+        display: none;
+    }
+
+
+}

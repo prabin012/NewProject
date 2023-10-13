@@ -1,0 +1,26 @@
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* padding: 20px; */
+    background-color: rgb(233, 224, 224);
+    /* background-image: url(C:\Users\Hp\OneDrive\Desktop\AFFORDED\frontend\public\Image\banner.png); */
+    height: 40px;
+    z-index: -99;
+  }
+  
+  .image-wrapper {
+    flex: 1;
+    text-align: center;
+    /* height: 20px; */
+  }
+  
+  .image-wrapper img {
+    max-width: 100%;
+    max-height: 40px;
+    border: 1px solid #ccc;
+  }
+  
+ 
+  

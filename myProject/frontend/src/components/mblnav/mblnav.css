@@ -1,0 +1,75 @@
+.navbar-1{
+    display: none;
+}
+@media (max-width:600px) {
+    .navbar-1{
+        display: flex;
+        width: 100%;
+       height: 28px;
+       background-image: none;
+
+    }
+  
+    .navbarHeader{
+        font-size: 25px;
+        text-align: center;
+        display: none;
+    }
+    .navbarInfo{
+        display: none;
+    }
+  
+    .navbarSearchButton{
+        display: none;
+    }
+
+    .navbarSearch{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgb(234, 239, 240);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        padding: 5px;
+        
+    }
+    .navbarSearchfield{
+        width: 70%;
+        background-color:rgb(191, 186, 186);
+        padding: 13px 20px;
+        /* box-shadow: 0 0 2px black; */
+        color: black;
+        border-radius: 0px;
+        border: none;
+        font-size: 20px;
+        height: 9px;
+    }
+    .messaheIcon{
+        display: flex;
+        font-size: 30px;
+        margin: 10px;
+        position: relative;
+    }
+    .personIcon{
+        width: 30px;
+        border-radius: 50%;
+
+    }
+    .personIcon img{
+        width: 100%;
+        border-radius: 50%;
+    }
+    
+.logoutOpen{
+    background-color: rgb(211, 217, 217);
+    position: absolute;
+    top: 60px;
+    padding: 10px;
+    left: 0;
+
+}
+
+}

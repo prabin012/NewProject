@@ -1,0 +1,127 @@
+.sideLeft{
+    flex: 5;
+    height: calc(100vh - 50px);
+    position: sticky;
+    top: 150px;
+    background-color: white;
+    z-index: -999;
+    
+}
+
+.slideleftwrapper{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+  
+}
+.filter{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 6px;
+       
+}
+.searchUsername{
+    margin-top: 2px;
+}
+
+.searchDate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    >span{
+        padding: 4px;
+    }
+}
+.searchBydate{
+    width: 70%;
+    padding:6px 10px;
+    font-size: 15px;
+}
+
+.seeMore{
+    padding: 4px 20px;
+    background-color: bisque;
+    text-align: center;
+    margin:10px 50px;
+    /* margin: 10px; */
+    width: 50%;
+}
+.seeMore:hover{
+    background-color:rgb(46, 217, 217);
+}
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.reachUs{
+    padding: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.contactIcons{
+    padding: 6px;
+    
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    /* justify-content: center; */
+}
+.facebookIcon{
+    padding: 10px 15px;
+    /* font-size: 25px; */
+}
+.instagramIcon{
+    padding: 10px 15px;
+}
+.linkedinIcon{
+    padding: 10px 15px;
+}
+.twitterIcon{
+    padding: 10px 15px;
+}
+.caIlcon{
+    font-size: 16px;
+}
+.cNumber{
+    margin-left: 10px;
+}
+.emailIcon{
+    font-size: 16px;
+}
+.contactEmail{
+    margin-left: 10px;
+}
+.i-1:hover{
+    color: rgb(46, 217, 217);
+}
+.contactNumberItem{
+    list-style: none;
+    font-size: 16px;
+    padding: 4px;
+}
+.sideleftList{
+    padding: 0;
+    margin: 0;
+}
+.sideleftItem{
+    list-style: none;
+    padding: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.sideleftItem:hover{
+    background-color: rgb(46, 217, 217);
+}
+.sideleftItem-1{
+    list-style: none;
+    padding: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}

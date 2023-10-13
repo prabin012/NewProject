@@ -1,0 +1,305 @@
+
+.workshopItems{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    color: black;
+    /* background-color: white; */
+    
+    
+}
+.workProfile{
+    margin-right: -200px;
+    margin-top: -10px;
+}
+.profileNav{
+    background-color: white;
+}
+.sivenavItem{
+    /* background-color: rgb(166, 37, 37); */
+    max-width: 200px;
+}
+
+.wHome{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition:all .9s ease;
+    border-radius: 20px;
+    
+}
+.wHome:hover{
+    background-color: rgb(200, 205, 208);
+    
+}
+.subscription{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(226, 217, 217);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    >h1{
+        padding: 50px;
+    }
+    
+}
+.navItem-workshop{
+    width: 150px;
+    display: flex;
+    /* padding: 0px 20px; */
+}
+/* .workshopMain{
+    width: 100%;
+} */
+.createTeam{
+    /* flex: .9; */
+    width: 15%;
+}
+.wpath{
+    flex: 2;
+}
+.worksdhopDropdown{
+    width: 190px;
+    height: 50px;
+    /* padding: 10px;
+     */
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.wokshopSelect{
+    width: 100%;
+    height: 100%;
+    /* text-align: center; */
+   
+
+    
+    display: flex;
+    flex-direction: column;
+    >p{
+        font-size: 12px;
+        text-align: center;
+    }
+    >span{
+        font-size: 10px;
+        /* padding: 10px; */
+        margin-left: 20px;
+    }
+}
+.createTeambtn{
+    padding: 10px 20px;
+    border: none;
+    /* border-bottom: 1px solid black; */
+    background-color: rgb(132, 132, 139);
+    width: 90%;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+   
+}
+.createTeambtn:hover{
+    background-color: aqua;
+    color: black;
+}
+.workshopMain{
+    width: 75%;
+    margin-left:140px;
+}
+.wcontainer{
+    display: flex;
+    margin-top: -30px;
+    overflow-x: scroll;
+}
+
+.workshopMainPage{
+    background-color: rgba(19, 50, 223, 0.509);
+    width: 100%;
+    height: 200px;
+    display: flex;
+   flex-direction: column;
+   /* align-items: flex-end; */
+   justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(135, 132, 132);
+}
+.binHelp{
+    justify-content: right;
+    display: flex;
+}
+.workmainIconsone{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.recomendation{
+    padding: 20px;
+    text-align: center;
+}
+.iconsWorkshop{
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.iconsWorkshop:hover{
+    /* background-color: aqua; */
+    background-color: rgb(87, 100, 219);
+    color:white;
+}
+.workshopPath{
+    height: 40px;
+     width: 100%;
+     display: flex;
+     
+     /* justify-content: space-evenly; */
+     align-items: center;
+     cursor: pointer;
+     /* border-bottom: 1px solid rgb(135, 132, 132); */
+     /* background-color: burlywood; */
+     background-color: rgb(239, 238, 238);
+}
+.wpath{
+    /* background-color: rgb(233, 242, 233); */
+    color: blue;
+    padding: 4px 10px;
+    /* border-radius: 20px; */
+}
+.workshopMainItem{
+    width: 100%;
+    height: 290px;
+   overflow: hidden;
+    
+    >p{
+        padding: 10px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+}
+.workshopElement{
+    width: 190px;
+    height: 220px;
+    /* background-color: blue; */
+    /* border: 1px solid rgb(163, 155, 155); */
+    padding: 5px;
+    margin: 20px 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+.workshopElementItem{
+    width: 180px;
+    height: 190px;
+    background-color: rgb(212, 211, 211);
+    border: 1px solid rgb(163, 155, 155);
+    border-radius: 5px;
+}
+
+/* .workshopMenu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.recentProjectWorkshop{
+   margin-left:20px;
+    font-size: 17px;
+    font-weight: 600;
+   
+   
+}
+.searchProjectWorkshop-1{
+    padding: 10px 20px;
+    width: 30%;
+    margin-right: -400px;
+    /* border-radius: 10px; */
+   
+}
+.searchProjectWorkshop{
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(167, 160, 160);
+   
+}
+.searchProjectWorkshop:focus{
+    outline: none;
+}
+.CreateProjectWorkshop{
+    padding: 10px 40px;
+    /* width: 100%; */
+    background-color: rgba(0, 0, 255, 0.619);
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid rgb(161, 157, 157);
+}
+.helps, .bin{
+    font-size: 10px;
+    margin: 13px;
+    border-bottom: 1px solid black;
+    
+}
+.workshopBoxes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bonesitem{
+    width: 40%;
+    padding: 10px 20px;
+    margin: 10px;
+}
+.i10{
+    padding: 0px 10px;
+}
+.sivenavItem{
+    width: 300px;
+}
+.navItem{
+    margin: 0;
+    transition: all .6s ease;
+    padding:10px 10px;
+    margin: px;
+}
+.navItem:hover{
+    /* color: aqua; */
+    /* background-color: black; */
+}
+
+
+.mainpageWorkshop-1{
+    width: 90%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+}
+.mainpageworkshopElement{
+    width: 60%;
+    /* background-color: blue; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.workshopmainpageTittle{
+    font-size: 60px;
+    text-align: center;
+    
+}
+.imageCOnatinerWorkshop{
+    width: 40%;
+    height: 100vh;
+}
+.mainpageImages{
+    width: 100%;
+    height: 100%;
+}

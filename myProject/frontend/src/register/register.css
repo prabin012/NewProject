@@ -1,0 +1,137 @@
+.register{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.regImage{
+    width: 50%;
+    background-image: url(C:\Users\Hp\OneDrive\Desktop\ProjectMela\myProject\frontend\public\assests\reg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    /* padding:50px 30px; */
+    
+}
+.registerTittle{
+    text-align: center;
+    font-size: 30px;
+    font-size: 600;
+    
+    
+}
+.regForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: white;
+
+    border-radius: 10px;
+    
+    
+}
+.labels{
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.texts{
+    margin:0px 10px;
+    padding:4px;
+    font-size: 17px;
+    border: none;
+    /* background-color: rgb(238, 239, 240); */
+    border-bottom: 1px solid rgb(138, 129, 129);
+}
+.texts:focus{
+    outline: none;
+}
+.submitbtn{
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px 20px;
+    color: wheat;
+    background-color: rgb(7, 16, 65);
+    border: 1px solid rgb(184, 184, 176);
+    transition: all .5 ease;
+}
+.submitbtn:hover{
+    background-color: rgb(10, 206, 121);
+}
+.nextPage{
+    display: flex;
+    font-size: 16px;
+    margin: 10px;
+}
+.nextPage a{
+    text-decoration: none;
+}
+.regGreet{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30PX;
+    font-weight: 1000;
+    font-family: 'Libre Baskerville', serif;
+   
+    >p{
+        font-size: 25px;
+        padding: 20px;
+        color: rgb(254, 255, 255);
+    }
+    >span{
+        font-size: 20px;
+        color: rgb(255, 94, 7);
+    }
+}
+
+
+@media (max-width:850px) {
+
+    .register{
+        width: 100%;
+        align-items: center;
+    }
+    .regImage{
+        display: none;
+    }
+    .registerItem{
+        width: 100%;
+        margin: 10px;
+        pad: 10px;
+        height: auto;
+        /* margin-top: 80px; */
+    }
+    .registerForm{
+        width: 100%;
+       
+    }
+    .regForm{
+        width: 100%;
+        height: auto;
+        
+    }
+    .texts{
+        width: 95%;
+    }
+ 
+}

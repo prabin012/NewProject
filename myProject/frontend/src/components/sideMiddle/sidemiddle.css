@@ -1,0 +1,135 @@
+.sidemiddle{
+    flex: 3;
+    /* width: 100%; */
+    margin-left: 60px;
+    margin-right: 20px;
+    z-index: -99;
+    
+}
+.feedCOntainer{
+    padding: 20px;
+    margin: 10px;
+    /* display: flex; */
+    box-shadow: rgba(74, 74, 91, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.titalcontaner{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(185, 187, 189);
+    position: relative;
+    z-index: -999;
+    
+}
+.imagItem{
+    padding: 10px;
+    margin-top: -10px;
+    width: 60px;
+    /* flex: ; */
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+    margin-right: 30px;
+   
+   
+}
+.userImage{
+  
+    display: flex;
+    width: 100%;
+    /* flex: 10; */
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    justify-content: right;
+   
+}
+.editPost{
+    position: absolute;
+    right: 0;
+    top: 0;
+ float: right;
+ cursor: pointer;
+ background-color: rgb(240, 235, 235);
+ padding: 6px;
+ border-radius: 20px;
+ margin: 10px;
+}
+.pEdit{
+    background-color: aqua;
+    padding: 20px;
+}
+.folloewUser{
+    padding: 10px;
+    cursor: pointer;
+}
+/* descriptioc */
+.topicDescription{
+    display: flex;
+    flex-direction: column;
+    padding: 10px
+}
+.feedtopicTittle{
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
+}
+.feedDate{
+    /* font-weight: 600; */
+    font-size: 10px;
+}
+/*  */
+
+.userItem{
+    display: flex;
+    flex-direction: column;
+}
+.userTittle{
+    font-size: 20px;
+    font-weight: 700;
+}
+.userUniversity{
+    font-weight: 500;
+}
+
+.descritpionImage{
+    width: 100%;
+}
+.descImage{
+    width: 100%;
+}
+
+.descriptionReaction{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 10px; */
+    margin: 10px;
+    border-top: 1px solid black;
+}
+.counter-1{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+.i2{
+    margin-left: 10px;
+}
+.readMoreDesc{
+    display: flex;
+    float: right;
+    justify-content: right;
+    color: blue;
+    cursor: pointer;
+}
+.feedDescription-1{
+    font-weight: 600;
+}
+
+@media (max-width:850px) {
+
+   
+    .sidemiddle{
+        margin: 0;
+    }
+
+}
